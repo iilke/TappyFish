@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish1
+      name: Fish_1
       rect:
         serializedVersion: 2
         x: 2005
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish2
+      name: Fish_2
       rect:
         serializedVersion: 2
         x: 2005
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish3
+      name: Fish_3
       rect:
         serializedVersion: 2
         x: 2005
@@ -393,9 +393,9 @@ TextureImporter:
       name: Ground
       rect:
         serializedVersion: 2
-        x: 44
+        x: 47
         y: 79
-        width: 1036
+        width: 1033
         height: 337
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -473,6 +473,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: tappy_fish_ui_elements_0
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 698
+        width: 110
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef42f464eab33d4ea82f7d64d90c6f8
+      internalID: 723150529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -486,9 +507,9 @@ TextureImporter:
     nameFileIdTable:
       Background: -2091481243
       BronzeMedal: -1982637913
-      Fish1: -667929235
-      Fish2: 311787709
-      Fish3: 1466707279
+      Fish_1: -667929235
+      Fish_2: 311787709
+      Fish_3: 1466707279
       GameOver: -1508797412
       GetReady: -1505201227
       GoldMedal: 909233443
@@ -501,6 +522,8 @@ TextureImporter:
       SilverMedal: -166120517
       TapPanel: -1493907184
       TappyFish: -426171740
+      tappy_fish_ui_elements_0: 723150529
+      tappy_fish_ui_elements_1: -840643916
       tappy_fish_ui_elements_10: 785388019
       tappy_fish_ui_elements_11: 1561249136
       tappy_fish_ui_elements_15: -1657921741
