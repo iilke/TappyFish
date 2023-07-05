@@ -12,7 +12,7 @@ public class LeftMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (gameObject.CompareTag("Ground"))
+        if (gameObject.CompareTag("Ground"))   //using tags for dissociating ground's movement from obstacle's movement
         {
             box = GetComponent<BoxCollider2D>();
             groundWidth = box.size.x;
@@ -35,7 +35,7 @@ public class LeftMovement : MonoBehaviour
                 transform.position = new Vector2(transform.position.x + 2 * groundWidth, transform.position.y);  //looping grounds
             }
         }
-        else if (gameObject.CompareTag("Obstacle"))
+        else if (gameObject.CompareTag("Obstacle")) //to destroy obstacle when they have passed behind from scene so we dont have clutter left behind
         {
             if (transform.position.x < GameManager.bottomLeft.x - obstacleWidth)
             {

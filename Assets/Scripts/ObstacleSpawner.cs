@@ -19,10 +19,10 @@ public class ObstacleSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-        if(timer >= maxTime)
+        timer += Time.deltaTime;  
+        if(timer >= maxTime) //first object will be created at maxTime (eg:if maxtime=3 then first obstacle will appear 3 secs after the game has started)
         {
-            randomY = Random.Range(minY, maxY);
+            randomY = Random.Range(minY, maxY);  //so the obstacle position on y axis wont be same for every obstacle
             InstantiateObstacle();
             timer = 0;
         }

@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static Vector2 bottomLeft;
 
-    private void Awake()
+    private void Awake() //awake part of the code is even executing before start
     {
         bottomLeft = Camera.main.ScreenToWorldPoint(new Vector2(0, 0));
     }

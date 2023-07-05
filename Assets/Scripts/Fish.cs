@@ -58,7 +58,7 @@ public class Fish : MonoBehaviour
             }
         }
 
-        transform.rotation = Quaternion.Euler(0, 0, angle); //nesnenin z ekseninde dönmesini saðlar
+        transform.rotation = Quaternion.Euler(0, 0, angle); //for rotation on z axis
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
